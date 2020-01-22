@@ -1,0 +1,17 @@
+div {
+  background-color: antiquewhite;
+  margin: 10px;
+}
+
+.column div{
+  width: 500px;
+  float: left;
+}
+
+.column div img {
+  width: 250px;
+  height: 250px;
+  float: left;
+  margin: 25px;
+}
+
