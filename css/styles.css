@@ -14,3 +14,41 @@ div {
   float: left;
   margin: 25px;
 }
+
+@media screen and (max-width: 1000px) and (min-width: 700px) {
+    .column div img {
+      width: 200px;
+      height: 200px;
+      float: left;
+      margin: 15px; 
+    }
+    div {
+      background-color: gray;
+      margin: 10px;
+    }
+    div p {
+      color: blueviolet;
+      font-size:18px;
+    }
+    .header {
+      font-size: 36px;
+      color: green;
+    }
+}
+
+@media screen and (max-width: 700px) {
+  .column div img {
+    width: 125px;
+    height: 125px;
+    float: left;
+    margin: 10px;  
+  }
+  div p {
+    color: red;
+    font-size: 20px;
+  }
+  .header {
+    font-size: 40px;
+    color: orange;
+  }
+}
